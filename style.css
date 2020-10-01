@@ -20,6 +20,8 @@ h1 {
 	font-size: 50px;
 	background-color: rgba(15, 15, 15, 0.185);
 	padding: 10px;
+	width: 100%;
+	text-align: center;
 }
 
 .container {
@@ -29,6 +31,7 @@ h1 {
 	margin: auto;
 	height: 300px;
 	width: 300px;
+	padding: 20px 0;
 	position: relative;
 	transform: scale(1);
 }
@@ -71,6 +74,14 @@ h1 {
 	height: 190px;
 	animation: rotate 7.5s linear forwards infinite;
 	transform-origin: bottom center;
+}
+.footer{
+	color: rgba(250, 248, 248, 0.384);
+	height: 8vh;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(233, 221, 221, 0.082);
+	padding-top: 5px;
 }
 
 @keyframes rotate {
