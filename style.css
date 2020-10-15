@@ -17,11 +17,13 @@ body {
 }
 h1 {
 	color: #55b7a4;
-	font-size: 50px;
-	background-color: rgba(15, 15, 15, 0.185);
 	padding: 10px;
 	width: 100%;
 	text-align: center;
+	font-size: 72px;
+	background: -webkit-linear-gradient(rgb(0, 255, 21), rgb(156, 165, 157));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .container {
